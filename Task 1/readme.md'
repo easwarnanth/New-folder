@@ -1,0 +1,8 @@
+const obj1 = {name:"person1",age:5};
+const obj2 = {age:5,name:"person1"};
+console.log(obj1==obj2);
+//The output will be false
+so,by browsing i have found
+// Check if both objects have the same number of properties 
+// Check if all properties in obj1 exist in obj2 and have the same values
+// Output: true
