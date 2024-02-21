@@ -6,7 +6,9 @@ req.onload=function(){
 for(let ind =  0 ; ind < obj.length ; ind++){
  console.log(obj[ind].flags.png);
  console.log(obj[ind].name.common);
- console.log(obj[ind].population.number);
+ console.log(obj[ind].population);
+ console.log(obj[ind].region)
+ console.log(obj[ind].subregion)
+}
+}
 
-}
-}
